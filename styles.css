@@ -1,0 +1,119 @@
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+
+section {
+    display: flex;
+}
+
+.menu {
+    background-image: url('Asset 9@4x.png');
+     color: white;
+	  background-repeat: no-repeat;
+	  background-position: center center;
+}
+
+section div h1{
+    font-size: 40px;
+}
+
+section div p{
+    margin-right: 400px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh 4vw 5vw 4vw;
+}
+
+article {
+    flex: 1;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+main {
+    padding-bottom: 0px;
+}
+
+body {
+    background-color:#91ce27cd;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px 2px gray;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+    margin-left: 4em;
+}
+
+.menu>p {
+    font-size: 20px;
+    margin-left: 2vw;
+    margin-bottom: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: #1a17171d;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.415);
+}
+
+tr:nth-child(1) {
+    background-color: rgba(96, 225, 22, 0.327);
+}
+
+tr:hover {
+    background-color: rgb(52, 222, 26);
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+th {
+    font-size: 20px;
+    padding: 20px 50px;
+}
+
+td {
+    padding: 10px 30px;
+}
+
+tr:nth-child(1) {
+    text-align: left;
+}
+
+table>tr:nth-child() {
+    text-align: center;
+}
+
+.menu-t {
+    margin: 0 auto;
+}
